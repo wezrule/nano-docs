@@ -527,12 +527,16 @@ Reports the number of blocks in the ledger and unchecked synchronizing blocks
 {
   "count": "1000",
   "unchecked": "10"
+  "cemented": "998"
 }
 ```
-**Optional "include_cemented"**
+**Optional "include_cemented"**  
 
-_enable_control required, version 19.0+_  
-Default "false". If "true", "cemented" in the response will contain the number of cemented blocks.
+_version 20.0+_  
+This flag is no longer available, "cemented" is now always included  
+  
+_enable_control required, version 19.0_  
+Default "false". If "true", "cemented" in the response will contain the number of cemented blocks.  
 
 ---
 
